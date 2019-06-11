@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SonucEkraniActivity"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/backg6">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/geri"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/homebutton"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"></RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="2.5"
+            android:id="@+id/sonimg"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rujluresim2"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:id="@+id/kaydet"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/savebutton"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:id="@+id/satinal"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/purchasebutton"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></LinearLayout>
+
+</LinearLayout>
